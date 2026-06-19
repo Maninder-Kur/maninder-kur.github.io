@@ -36,14 +36,14 @@ const scrollActive = () => {
     const sectionTop = current.offsetTop - 200;
     const sectionId = current.getAttribute("id");
 
-    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document
-        .querySelector(".nav__link[href*=" + sectionId + "]")
-        .classList.add("active-link");
-    } else {
-      document
-        .querySelector(".nav__link[href*=" + sectionId + "]")
-        .classList.remove("active-link");
+    const navTarget = document.querySelector(".nav__link[href*=" + sectionId + "]");
+
+    if (navTarget) {
+      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        navTarget.classList.add("active-link");
+      } else {
+        navTarget.classList.remove("active-link");
+      }
     }
   });
 };

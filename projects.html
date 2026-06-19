@@ -6,6 +6,7 @@
   <meta name="description" content="Research Projects - Maninder Kaur" />
   <title>Projects | Maninder Kaur</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -13,7 +14,7 @@
   <header class="l-header">
     <nav class="nav bd-grid">
       <div class="nav__logo-container">
-        <div class="logo-icon">🧬</div>
+        <div class="logo-icon" aria-hidden="true">&#129516;</div>
         <a href="index.html" class="nav__logo">Maninder Kaur</a>
       </div>
 
@@ -24,7 +25,6 @@
           <li class="nav__item"><a href="education.html" class="nav__link"><i class='bx bx-book'></i> Education</a></li>
           <li class="nav__item"><a href="experience.html" class="nav__link"><i class='bx bx-briefcase'></i> Experience</a></li>
           <li class="nav__item"><a href="projects.html" class="nav__link active-link"><i class='bx bx-code-block'></i> Projects</a></li>
-          <li class="nav__item"><a href="expertise.html" class="nav__link"><i class='bx bx-star'></i> Skills</a></li>
           <li class="nav__item"><a href="publications.html" class="nav__link"><i class='bx bx-file'></i> Publications</a></li>
           <li class="nav__item"><a href="contact.html" class="nav__link"><i class='bx bx-envelope'></i> Contact</a></li>
         </ul>
@@ -58,7 +58,7 @@
             </p>
             <div class="project-card__timeline">
               <i class='bx bx-calendar'></i>
-              <span>Oct 2024 – Present</span>
+              <span>Oct 2024 - Present</span>
             </div>
             
             <div class="project-card__description">
@@ -103,7 +103,7 @@
             </p>
             <div class="project-card__timeline">
               <i class='bx bx-calendar'></i>
-              <span>Feb 2024 – Apr 2024</span>
+              <span>Feb 2024 - Apr 2024</span>
             </div>
             
             <div class="project-card__description">
@@ -147,7 +147,7 @@
             </p>
             <div class="project-card__timeline">
               <i class='bx bx-calendar'></i>
-              <span>Apr 2022 – Aug 2023</span>
+              <span>Apr 2022 - Aug 2023</span>
             </div>
             
             <div class="project-card__description">
@@ -192,7 +192,7 @@
             </p>
             <div class="project-card__timeline">
               <i class='bx bx-calendar'></i>
-              <span>Oct 2024 – Nov 2024</span>
+              <span>Oct 2024 - Nov 2024</span>
             </div>
             
             <div class="project-card__description">
@@ -257,8 +257,8 @@
         <a href="publications.html" class="button button--primary">
           <i class='bx bx-arrow-to-right'></i> View Publications
         </a>
-        <a href="expertise.html" class="button button--secondary">
-          <i class='bx bxs-star'></i> Technical Skills
+        <a href="experience.html" class="button button--secondary">
+          <i class='bx bxs-star'></i> Experiences
         </a>
       </div>
     </section>
@@ -266,13 +266,44 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p class="footer__title">Maninder Kaur</p>
-    <p class="footer__subtitle">PhD Scholar in AI & Healthcare</p>
-    <div class="footer__social">
-      <a href="https://www.linkedin.com/in/maninder-kaur/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-      <a href="https://github.com/Maninder-Kur" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+    <div class="footer__container bd-grid">
+      <div class="footer__brand">
+        <p class="footer__title">Maninder Kaur</p>
+        <p class="footer__subtitle">PhD Scholar in AI & Healthcare</p>
+        <p class="footer__text">Researching interpretable deep learning, medical imaging, and computer vision for healthcare applications.</p>
+        <div class="footer__social" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/maninder1705/" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/Maninder-Kur" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="https://scholar.google.com/citations?hl=en&user=hHDFBEkAAAAJ" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="Google Scholar"><i class='bx bxs-book'></i></a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h3 class="footer__heading">Navigation</h3>
+        <div class="footer__links">
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="education.html" class="footer__link">Education</a>
+          <a href="experience.html" class="footer__link">Experience</a>
+          <a href="experience.html#selected-skills" class="footer__link">Selected Skills</a>
+          <a href="projects.html" class="footer__link">Projects</a>
+          <a href="publications.html" class="footer__link">Publications</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+      </nav>
+
+      <div class="footer__contact">
+        <h3 class="footer__heading">Connect</h3>
+        <a href="mailto:maninder.23csz0015@iitrpr.ac.in" class="footer__contact-link"><i class='bx bxs-envelope'></i> maninder.23csz0015@iitrpr.ac.in</a>
+        <a href="contact.html" class="footer__contact-link"><i class='bx bxs-chat'></i> Collaboration inquiries</a>
+        <a href="https://www.roparai.org/home" target="_blank" rel="noopener noreferrer" class="footer__contact-link"><i class='bx bxs-flask'></i> MIND Lab website</a>
+        <a href="https://www.linkedin.com/company/mind-lab-sukrit/jobs/" target="_blank" rel="noopener noreferrer" class="footer__contact-link"><i class='bx bxl-linkedin'></i> MIND Lab LinkedIn</a>
+      </div>
     </div>
-    <p class="footer__copy">&copy; 2024 Maninder Kaur. All rights reserved.</p>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; 2026 Maninder Kaur. All rights reserved.</p>
+      <p class="footer__focus">AI in Healthcare &bull; Medical Image Analysis &bull; Deep Learning</p>
+    </div>
   </footer>
 
   <!-- Go to Top Button -->
