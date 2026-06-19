@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Maninder Kaur portfolio favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6d3fd1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M23 13c13 6 5 16 18 22M41 13c-13 6-5 16-18 22M23 29c13 6 5 16 18 22M41 29c-13 6-5 16-18 22" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 20h16M24 28h16M24 36h16M24 44h16" fill="none" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="18" cy="14" r="3" fill="#ffffff"/>
+  <circle cx="46" cy="50" r="3" fill="#ffffff"/>
+</svg>
