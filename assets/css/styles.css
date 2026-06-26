@@ -188,7 +188,7 @@ a {
 .home {
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(250, 245, 255, 0.84) 48%, rgba(236, 220, 255, 0.42) 100%),
-    url("../img/home-ai-healthcare-bg.png") center / cover no-repeat;
+    url("../img/home-ai-healthcare-bg-purple.png") center / cover no-repeat;
   color: #26173e;
   padding: 8rem 0;
   min-height: calc(100vh - var(--header-height));
@@ -1366,26 +1366,45 @@ a {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   z-index: 10;
+  box-shadow: 0 8px 18px rgba(38, 23, 62, 0.22);
 }
 
 .project-icon {
   font-size: 3rem;
   text-align: center;
-  padding: 2rem 1rem;
+  line-height: 1;
+  padding: 2rem 1rem 0.75rem;
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
+  text-shadow: 0 4px 12px rgba(38, 23, 62, 0.22);
+}
+
+.project-icon svg {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: block;
+  margin: 0 auto;
+  stroke: currentColor;
+  filter: drop-shadow(0 4px 10px rgba(38, 23, 62, 0.22));
 }
 
 .featured-project-card h3 {
-  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
-  color: #000;
+  margin: 0;
+  padding: 0 1.5rem 1.5rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 .project-subtitle {
@@ -1404,7 +1423,7 @@ a {
 .project-award {
   display: block;
   padding: 0.5rem 1.5rem 1.5rem 1.5rem;
-  color: var(--accent-color);
+  color: var(--primary-color);
   font-weight: 600;
 }
 
@@ -1628,7 +1647,7 @@ a {
 }
 
 .education-card__badge.bachelors {
-  background: #26d0ce;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
 }
 
@@ -2221,7 +2240,7 @@ a {
 }
 
 .project-card__badge.award {
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
 }
 
@@ -2635,7 +2654,7 @@ a {
 }
 
 .publication-card__badge.poster {
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
 }
 
